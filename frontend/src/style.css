@@ -1,0 +1,37 @@
+ .rectangletop {
+   position: absolute;
+   width: 100vw;
+   height: 100px;
+   background: #24AEC0;
+   align-self: start;
+   justify-self: left;
+   display: flex;
+ }
+
+ .rectanglebottom {
+   position: absolute;
+   width: 100vw;
+   height: 200px;
+   background: #FDED5D;
+   align-self: start;
+   display: flex;
+ }
+
+  .rectangletopsmall {
+    position: absolute;
+    width: 100vw;
+    height: 38px;
+    background: #24AEC0;
+    align-self: start;
+    justify-self: left;
+    display: flex;
+  }
+
+  .rectanglebottomsmall {
+    position: absolute;
+    width: 100vw;
+    height: 76px;
+    background: #FDED5D;
+    align-self: start;
+    display: flex;
+  }
