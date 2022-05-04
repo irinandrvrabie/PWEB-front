@@ -35,3 +35,33 @@
     align-self: start;
     display: flex;
   }
+  .welcome-box {
+    position: absolute;
+    width: 400px;
+    height: 340px;
+    background: #FDED5D00;
+    border: 1px solid #A0A0A0;
+    align-self: start;
+    display: flex;
+
+  }
+
+  .btn {
+    cursor: pointer;
+  }
+
+  .btn:hover {
+      transform: scale(0.95);
+      transition-duration: 0.2s;
+  }
+
+  label, input {
+     display:flex;
+     flex-direction:column;
+  }
+   label {
+    text-align: left;
+    font-family: Sans Serif, Segoe UI;
+    font-size: 12px;
+    margin-left: 4px;
+   }

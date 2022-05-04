@@ -12,7 +12,7 @@ const LoginHeader = ({ children }) => {
         <div className="rectanglebottom">
         <div className="rectangletop"/>
         </div>
-        <img style={{position: "absolute", height: "10vw", top: "1.75vw", left: "38vw"
+        <img style={{position: "absolute", height: "10vw", top: "1.75vw", left: "38.6vw"
                                            }} src={logo} alt="Logo" />
     </div>
   );

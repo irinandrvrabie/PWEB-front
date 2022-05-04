@@ -2,15 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 import '../style.css';
 import LoginHeader from '../layouts/LoginHeader.jsx'
-import SignInCard from '../components/SignInCard.jsx'
+import SignUpCard from '../components/SignUpCard.jsx'
 
-const SignIn = () => {
+const SignUp = () => {
  return (
-    <div className="signin">
+    <div className="signup">
         <LoginHeader/>
-        <SignInCard />
+        <SignUpCard/>
     </div>
   );
 };
 
-export default SignIn;
+export default SignUp;

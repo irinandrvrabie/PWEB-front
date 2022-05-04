@@ -1,13 +1,13 @@
-import logo from './logo.svg';
+import React, { useEffect, Fragment, Component } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
-import LoginHeader from './layouts/LoginHeader.jsx'
-import RegularHeader from './layouts/RegularHeader.jsx'
+import Routing from './pages/Routing.jsx'
 import SignIn from './pages/SignIn.jsx'
-
+import SignUp from './pages/SignUp.jsx'
 function App() {
   return (
     <div className="App">
-      <SignIn/>
+     <Routing />
     </div>
   );
 }
