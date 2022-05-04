@@ -40,11 +40,19 @@
     width: 400px;
     height: 340px;
     background: #FDED5D00;
-    border: 1px solid #A0A0A0;
+    border: 2px solid #A0A0A0;
     align-self: start;
     display: flex;
-
   }
+  .welcome-boxbigger {
+    position: absolute;
+    width: 800px;
+    height: 340px;
+    background: #FDED5D00;
+    border: 2px solid #A0A0A0;
+    align-self: start;
+    display: flex;
+   }
 
   .btn {
     cursor: pointer;

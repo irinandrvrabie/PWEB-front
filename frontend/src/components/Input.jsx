@@ -29,7 +29,7 @@ const Input: React.FC<Props> = ({
   }) => {
   return (
   <form>
-    <label className={lblclassname} for = {type} > {text} </label>
+    <label className={lblclassname} for = {id} > {text} </label>
     <input
       onChange={onChange}
       style={{
