@@ -63,13 +63,29 @@
       transition-duration: 0.2s;
   }
 
-  label, input {
+ label, input {
      display:flex;
      flex-direction:column;
   }
+
    label {
     text-align: left;
     font-family: Sans Serif, Segoe UI;
     font-size: 12px;
     margin-left: 4px;
+   }
+
+   table {
+     width: 85vw;
+     height: 300px;
+   }
+
+   td {
+     text-align: center;
+     border: 6px solid white;
+     background: #F8F8F8;
+     padding: 20px;
+     font-family: Sans Serif, Segoe UI;
+     font-size: 13px;
+     font-weight: 500
    }

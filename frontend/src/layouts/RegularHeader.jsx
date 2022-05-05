@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 //import { useAuth0 } from "@auth0/auth0-react";
 import logo from '../images/logo22.png';
-import '../style.css';
+import '../styles/style.css';
 
 const RegularHeader = ({ children }) => {
  // const { logout, user } = useAuth0();
