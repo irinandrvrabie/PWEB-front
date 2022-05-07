@@ -15,7 +15,7 @@ const ListedJobsEmployer = () => {
                    <Button border="none"
                         color="#24AEC0"
                         height = "37px"
-                        onClick={() => navigate('/')}
+                        onClick={() => navigate('/employer/allcandidates')}
                         radius = "10px 10px 10px 10px"
                         width = "105px"
                         classname = "btn"

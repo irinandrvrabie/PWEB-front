@@ -1,8 +1,10 @@
 import React, { useMemo, useState } from "react";
 import '../styles/style.css';
 import Button from './Button.jsx'
+import { Link, useNavigate} from "react-router-dom";
 
 const ListedJobs = () => {
+ const navigate = useNavigate();
   const columns = useMemo(
     () => [
       {
@@ -89,6 +91,7 @@ const ListedJobs = () => {
                       radius = "10px 10px 10px 10px"
                       width = "120px"
                       classname = "btn"
+                      onClick={() => navigate('/employer/offer')}
                       children = <div style={{color: "white", fontSize: "18px", fontFamily: "Sans Serif, Segoe UI", alignSelf:"center"}}> Edit offer </div>
               /></td>
             </tr>

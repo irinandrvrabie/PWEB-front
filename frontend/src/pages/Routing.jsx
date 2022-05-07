@@ -5,7 +5,8 @@ import SignUp from './SignUp.jsx'
 import AllJobsEmployee from './AllJobsEmployee.jsx'
 import ListedJobsEmployer from './ListedJobsEmployer.jsx'
 import AllCandidates from './AllCandidates.jsx'
-
+import EditProfile from './EditProfile.jsx'
+import EditOffer from './EditOffer.jsx'
 function Routing() {
   return (
        <BrowserRouter>
@@ -15,6 +16,8 @@ function Routing() {
             <Route exact path='/employee/alljobs' element={<AllJobsEmployee />} />
             <Route exact path='/employer/alljobs' element={<ListedJobsEmployer />} />
             <Route exact path='/employer/allcandidates' element={<AllCandidates />} />
+            <Route exact path='/employee/profile' element={<EditProfile />} />
+            <Route exact path='/employer/offer' element={<EditOffer />} />
          </Routes>
        </BrowserRouter>
   );

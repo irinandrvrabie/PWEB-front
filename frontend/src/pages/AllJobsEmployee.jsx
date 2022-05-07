@@ -1,11 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate} from "react-router-dom";
 import '../styles/style.css';
 import RegularHeader from '../layouts/RegularHeader.jsx'
 import AvailableJobs from '../components/AvailableJobs.jsx'
 import Button from '../components/Button.jsx'
 
 const AllJobsEmployee = () => {
+ const navigate = useNavigate();
  return (
     <div className="alljobs">
         <RegularHeader/>
@@ -14,7 +15,7 @@ const AllJobsEmployee = () => {
                    <Button border="none"
                         color="#24AEC0"
                         height = "37px"
-                        onClick={() => console.log("You clicked on EDIT!")}
+                        onClick={() => navigate('/employee/profile')}
                         radius = "10px 10px 10px 10px"
                         width = "105px"
                         classname = "btn"
