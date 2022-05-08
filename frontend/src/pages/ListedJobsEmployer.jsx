@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useNavigate} from "react-router-dom";
 import '../styles/style.css';
-import RegularHeader from '../layouts/RegularHeader.jsx'
+import RegularHeader from '../utils/RegularHeader.jsx'
 import ListedJobs from '../components/ListedJobs.jsx'
 import Button from '../components/Button.jsx'
 
